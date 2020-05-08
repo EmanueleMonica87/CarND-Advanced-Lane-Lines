@@ -40,7 +40,7 @@ The goals / steps of this project are the following:
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  
 
-This is the Writeup file. The code I wrote is a mixture of sources. I would like to thank for the contribution JustinHeaton (https://github.com/JustinHeaton/Advanced-Lane-Finding) from whom I took many parts of code (especially from gradients onward), rearranging and modifying some of them to better understand the logic behind and possible improvements. I also took help from the Udacity course code.
+This is the Writeup file. The code I wrote is a mixture of ideas. I would like to thank in particular the source I used the most, which is the one of another Udacity student JustinHeaton (https://github.com/JustinHeaton/Advanced-Lane-Finding) from whom I took many parts of code (especially from gradients onward), rearranging and modifying some of them to better understand the logic behind and possible improvements. I also took help from the Udacity course code.
 
 ### Camera Calibration
 
