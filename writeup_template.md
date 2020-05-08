@@ -20,8 +20,8 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/Ema_chessboard.jpg "Calibration"
-[image2]: ./examples/Ema_unwarped.jpg "Road Undistorted"
-[image3]: ./examples/Ema_unwarped2.jpg "Road Unwarped"
+[image2]: ./examples/Ema_unwarp.jpg "Road Undistorted"
+[image3]: ./examples/Ema_unwarp2.jpg "Road Unwarped"
 [image4]: ./examples/Ema_binary.jpg "Thresholding"
 [image5]: ./examples/Ema_color_fit_lines.jpg "Fit Visual"
 [image6]: ./examples/Ema_example_output.jpg "Output"
