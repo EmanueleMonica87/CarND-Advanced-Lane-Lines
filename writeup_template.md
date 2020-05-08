@@ -21,11 +21,12 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/Ema_chessboard.jpg "Calibration"
 [image2]: ./examples/Ema_unwarp.jpg "Road Undistorted"
-[image3]: ./examples/Ema_unwarp2.jpg "Road Unwarped"
+[image3]: ./examples/Ema_unwarp_perfect.jpg "Road Unwarped"
 [image4]: ./examples/Ema_binary.jpg "Thresholding"
 [image5]: ./examples/Ema_color_fit_lines.jpg "Fit Visual"
 [image6]: ./examples/Ema_example_output.jpg "Output"
 [image7]: ./examples/Ema_example_output2.jpg "Output Wrong"
+[image8]: ./examples/Ema_unwarp2.jpg "Road Unwarped 2"
 [video1]: ./result.mp4 "Video"
 [video2]: ./challenge_result.mp4 "Challenge Video"
 
@@ -115,8 +116,9 @@ The `warped()` function takes as inputs an image (`img`), and the source (`src`)
 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear approximately parallel in the warped image.
 
-Note: due to time constraint, I was not able to optimize the warping function, however the code reports commented another set of points, which would not perform the perfect unwarping, however in the overall pipeline, they perfomed better. Seems that the point set somehow influence the polynomial function. Please see below where this warping fails.
+Note: due to time constraint, I was not able to optimize the warping function, however the code reports commented another set of points, which would not perform the perfect unwarping, however in the overall pipeline, they perfomed better. Seems that the point set somehow influence the polynomial function. Please see below where this warping fails. The below are the not optimal, other set of warping points.
 
+![alt text][image8]
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
